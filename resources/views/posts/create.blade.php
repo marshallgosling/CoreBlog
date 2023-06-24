@@ -53,6 +53,9 @@
                   <label for="tags" data-toggle="tooltip" title="输入完标签请按回车" data-placement="right">文章标签</label>
                   <textarea class="form-control" id="tags" name="tags"></textarea>
                 </div>
+                <div class="form-group" id="editor">
+                  <textarea name="content" id="content" class="form-control"></textarea>
+                </div>
                 <div class="form-group">
                   <label for="cover">封面图</label>
                   <input type="file" class="form-control dropify" id="cover" name="cover"
@@ -63,9 +66,7 @@
                   <textarea class="form-control" id="description" name="description" rows="3"
                             placeholder="请简要概述大概内容，不要超过150字" maxlength="150"></textarea>
                 </div>
-                <div class="form-group" id="editor">
-                  <textarea name="content" id="content" class="form-control"></textarea>
-                </div>
+                
                 <div class="row mb-3">
                   <div class="col">
                     <label for="publish_time">定时发布</label>
